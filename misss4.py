@@ -37,10 +37,10 @@ channel3 = LineChannel(kc)
 kc.log("Channel Access Token : " + str(channel3.channelAccessToken))
 poll = LinePoll(cl)
 call = cl
-creator = ["ud296655acef67cbd5e8208e63629f78b"]
-owner = ["ud296655acef67cbd5e8208e63629f78b"]
-admin = ["ud296655acef67cbd5e8208e63629f78b"]
-staff = ["ud296655acef67cbd5e8208e63629f78b"]
+creator = ["u9e7d8fa4b0465a713cdabfbfab21e35d"]
+owner = ["u9e7d8fa4b0465a713cdabfbfab21e35d"]
+admin = ["u9e7d8fa4b0465a713cdabfbfab21e35d"]
+staff = ["u9e7d8fa4b0465a713cdabfbfab21e35d"]
 myMid = cl.profile.mid
 mid = cl.getProfile().mid
 Amid = ki.getProfile().mid
@@ -121,11 +121,11 @@ wait = {
     "welcomeOn":False,
     "sticker":False,
     "selfbot":True,
-    "mention":"NGINTIPPP!!!",
-    "Respontag":"SEKANG TAG BESOK JATUH CINTA",
+    "mention":"what :/!!!",
+    "Respontag":"TAG :/ DOMT TAG ME 😊",
     "welcome":"Selamat datang & betah",
-    "comment":"Like like & like by ARIFISTIFIK",
-    "message":"Terimakasih sudah add saya 😃",
+    "comment":"Like like & like by SALLAKH BOT",
+    "message":"Tnx for add me  😃",
     }
 
 read = {
@@ -309,7 +309,7 @@ def command(text):
 def help():
     key = Setmain["keyCommand"]
     key = key.title()
-    helpMessage = "━━━━┅═❉ই۝ई❉═┅━━━━\n" + \
+    helpMessage = "━━━━┅═❉S-Kই۝ईBOT❉═┅━━━━\n" + \
                   "╭━━━━━━━━━━━━━━━━\n" + \
                   "║╭❉ HELP MESSAGE\n" + \
                   "║┝───────────────" + "\n" + \
@@ -364,13 +364,13 @@ def help():
                   "║│ " + key + "Spamcall\n" + \
                   "║╰❉──────────────\n" + \
                   "╰━━━━━━━━━━━━━━━━\n" + \
-                  "━━━━┅═❉ই۝ई❉═┅━━━━"
+                  "━━━━┅═❉S-Kই۝ईBOT❉═┅━━━━"
     return helpMessage
 
 def helpbot():
     key = Setmain["keyCommand"]
     key = key.title()
-    helpMessage1 = "━━━━┅═❉ই۝ई❉═┅━━━━\n" + \
+    helpMessage1 = "━━━━┅═❉S-Kই۝ईBOT❉═┅━━━━\n" + \
                   "╭━━━━━━━━━━━━━━━━\n" + \
                   "║╭❉  HELP2  ❇\n" + \
                   "║┝───────────────" + "\n" + \
@@ -410,13 +410,13 @@ def helpbot():
                   "║│ " + key + "Spam:「Mid 」「jml」\n" + \
                   "║╰❉SELFBOT PROTECT\n" + \
                   "╰━━━━━━━━━━━━━━━━\n" + \
-                  "━━━━┅═❉ই۝ई❉═┅━━━━"
+                  "━━━━┅═❉S-Kই۝ईBOT❉═┅━━━━"
     return helpMessage1
 
 def helpadmin():
     key = Setmain["keyCommand"]
     key = key.title()
-    helpMessage2 = "━━━━┅═❉ই۝ई❉═┅━━━━\n" + \
+    helpMessage2 = "━━━━┅═❉S-Kই۝ईBOT❉═┅━━━━\n" + \
                   "╭━━━━━━━━━━━━━━━━\n" + \
                   "║╭❉  HELP3  ❇\n" + \
 				  "║┝───────────────" + "\n" + \
@@ -452,7 +452,7 @@ def helpadmin():
                   "║│ " + key + "Listbot\n" + \
                   "║│ " + key + "Listadmin\n" + \
                   "║│ " + key + "Listprotect\n" + \
-                  "║╰❉SELFBOT BY DPK\n" + \
+                  "║╰❉SELFBOT BY S-K\n" + \
                   "╰━━━━━━━━━━━━━━━━\n" + \
                   "━━━━┅═❉ই۝ई❉═┅━━━━"
     return helpMessage2
@@ -1299,7 +1299,7 @@ def bot(op):
 
                         elif cmd == "creator" or text.lower() == 'creator':
                             if msg._from in admin:
-                                cl.sendText(msg.to,"Creator ARIFISTIFIK") 
+                                cl.sendText(msg.to,"Creator Abbas Sallakh") 
                                 ma = ""
                                 for i in creator:
                                     ma = cl.getContact(i)
